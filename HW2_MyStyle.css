@@ -29,3 +29,26 @@ div{
     background-image:url(https://i.pinimg.com/564x/a9/2a/75/a92a758e7f1d9ea3a55ed3f66f5436fb.jpg);
     box-shadow: 0px 0px 12px 12px rgb(228, 197, 125);
 }
+
+/*18 DEC 2566*/
+p.normal{
+    font-style: normal;
+    font-weight:bold;
+}
+p.normal.font16{
+    font-size: 16pt;
+    font-style: normal;
+    font-weight:bold;
+}
+p.italic{
+    font-style: italic;
+    font-weight:bold;
+}
+div>div>p{
+    font-style: large;
+    font-weight:bold;
+}
+div>p{
+    font-style: smaller;
+    font-weight:bold;
+}
