@@ -9,6 +9,7 @@
     padding-top: 10px;
     margin: 30px 25px;
     line-height: 400px;
+    /*border-radius: 20px;*/
 }
 .body{
     line-height: 1.5;
@@ -51,4 +52,12 @@ div>div>p{
 div>p{
     font-style: smaller;
     font-weight:bold;
+}
+.box2{
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+div+p{
+    background-color: yellow;
 }
