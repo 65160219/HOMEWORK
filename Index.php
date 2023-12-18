@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>this is php<?php echo 'Hello World!';></h1>
+    <h1>This is PHP <?php echo 'Hello World!'; ?> </h1>
+    <div>
+        <p>1</p>
+        <?php
+        { echo "<h1>my h1</h1>";
+        ?>
+        <p>2</p>
+        <?php
+        } 
+        ?>
+        <p>3</p>
 </body>
 </html>
